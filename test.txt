@@ -1,0 +1,133 @@
+--- !ruby/object:Library
+books:
+- Angel
+- Bell
+- Bearskin
+- Blue Light
+authors:
+- &1 !ruby/object:Author
+  name: Hans Christian Andersen
+  biography: Danish author and poet
+- &4 !ruby/object:Author
+  name: Brothers Grimm
+  biography: 'The Brothers Grimm: Jacob and Wilhelm Grimm'
+orders:
+- !ruby/object:Order
+  book: &2 !ruby/object:Book
+    title: Angel
+    author: *1
+  reader: &6 !ruby/object:Reader
+    name: Reader2
+    email: 
+    city: 
+    street: 
+    house: 
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: *2
+  reader: &3 !ruby/object:Reader
+    name: Reader3
+    email: 
+    city: 
+    street: 
+    house: 
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: *2
+  reader: &5 !ruby/object:Reader
+    name: Reader4
+    email: 
+    city: 
+    street: 
+    house: 
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Blue Light
+    author: *4
+  reader: *5
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: &7 !ruby/object:Book
+    title: Bell
+    author: *1
+  reader: &9 !ruby/object:Reader
+    name: Reader1
+    email: 
+    city: 
+    street: 
+    house: 
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: &8 !ruby/object:Book
+    title: Bearskin
+    author: *4
+  reader: *6
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: *7
+  reader: *3
+  date: 2016-04-11 22:56:30.518682000 +03:00
+- !ruby/object:Order
+  book: *8
+  reader: *5
+  date: 2016-04-11 22:56:30.518682000 +03:00
+readers:
+- !ruby/object:Reader
+  name: *6
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *3
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *3
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *5
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *5
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *9
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *6
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *3
+  email: 
+  city: 
+  street: 
+  house: 
+- !ruby/object:Reader
+  name: *5
+  email: 
+  city: 
+  street: 
+  house: 
