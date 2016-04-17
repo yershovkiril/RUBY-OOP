@@ -1,18 +1,18 @@
 ﻿You can test 'Library' by run file 'init.rb'
-﻿
-﻿Tasks
 
-Library
+#Tasks
 
-Book: title, author
-Order: book, reader, date
-Reader: name, email, city, street, house
-Author: name, biography
-Library: books, orders, readers, authors
-Write program that determines:
+###Library
 
-Who often takes the book
-What is the most popular book
-How many people ordered one of the three most popular books
-Save all Library data to file(s)
-Get all Library data from file(s)
+Book: title, author <br />
+Order: book, reader, date <br />
+Reader: name, email, city, street, house <br />
+Author: name, biography <br />
+Library: books, orders, readers, authors <br /><br /><br />
+######Write program that determines:<br />
+
+Who often takes the book <br />
+What is the most popular book <br />
+How many people ordered one of the three most popular books <br />
+Save all Library data to file(s) <br />
+Get all Library data from file(s) <br />
